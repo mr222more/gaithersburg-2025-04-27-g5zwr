@@ -1,46 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaithersburg - Custom Shower Glass Installation</title>
     <meta name="description" content="Professional shower glass installations in Gaithersburg with custom-cut glass and precision-engineered seals">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-white tracking-tight">CustomEuroGlass</a>
+                <a href="https://mr222more.github.io/gaithersburg-2025-04-27-g5zwr" class="text-2xl font-bold text-white tracking-tight hover:text-blue-400 transition-colors duration-300">CustomEuroGlass</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
                 </div>
-                <a href="http://www.customeuroglass.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105">
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden text-white" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+
+                <a href="http://www.customeuroglass.com" class="hidden md:inline-flex bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105">
                     Get Started
                 </a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                    <a href="http://www.customeuroglass.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium text-center transition-all duration-300">
+                        Get Started
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center pt-20 pb-32 overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-900/90 to-gray-900/90"></div>
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div class="max-w-4xl">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white mb-6">
-                        Gaithersburg's Premier <span class="text-blue-400">Shower Glass</span> Installation
+                        Transform Your Bathroom with <span class="text-blue-400">Premium Shower Glass</span> Solutions
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-                        Affordable shower glass installations with precision engineering and expert craftsmanship.
+                        Experience luxury and elegance with our custom-designed shower enclosures. Professional installation, superior materials, and lifetime warranty - all at competitive prices.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="http://www.customeuroglass.com" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
-                            Request Quote
+                        <a href="http://www.customeuroglass.com" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                            Get Free Quote Today
                         </a>
-                        <a href="#features" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-blue-400 border-2 border-blue-400 rounded-full hover:bg-blue-400/10 transition-all duration-300">
-                            Learn More
+                        <a href="#features" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-blue-400 border-2 border-blue-400 rounded-full hover:bg-blue-400/10 transition-all duration-300 hover:shadow-lg">
+                            Explore Our Services
                         </a>
                     </div>
                 </div>
@@ -50,18 +86,38 @@
         <section id="features" class="py-24 bg-gray-800">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl mx-auto text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Premium Features</h2>
-                    <p class="text-xl text-gray-400">Experience the perfect combination of form and function with our custom shower glass solutions.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Premium Features & Craftsmanship</h2>
+                    <p class="text-xl text-gray-400">Discover why homeowners throughout Gaithersburg trust us for their luxury shower glass installations.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                         <div class="text-blue-400 mb-4">
                             <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Custom-Cut Glass</h3>
-                        <p class="text-gray-400">Precision-engineered glass cuts ensure a flawless fit for your unique shower space.</p>
+                        <h3 class="text-xl font-bold mb-4">Premium Glass Selection</h3>
+                        <p class="text-gray-400">10mm tempered safety glass with crystal-clear clarity and superior durability. Choose from various textures and finishes.</p>
+                    </div>
+                    
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <div class="text-blue-400 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Expert Installation</h3>
+                        <p class="text-gray-400">Professional installation by certified technicians with over 15 years of experience in custom shower enclosures.</p>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <div class="text-blue-400 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Lifetime Warranty</h3>
+                        <p class="text-gray-400">Comprehensive warranty covering materials and craftsmanship, ensuring your investment is protected for years to come.</p>
                     </div>
                 </div>
             </div>
@@ -70,22 +126,171 @@
         <section id="benefits" class="py-24 bg-gradient-to-b from-gray-900 to-gray-800">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl mx-auto text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Why Choose Us</h2>
-                    <p class="text-xl text-gray-400">Experience superior quality and lasting performance with our expert installations.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">The CustomEuroGlass Advantage</h2>
+                    <p class="text-xl text-gray-400">Experience superior quality and unmatched customer service with every installation.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div class="space-y-8">
-                        <div class="flex items-start gap-4">
+                        <div class="flex items-start gap-4 hover:transform hover:scale-105 transition-all duration-300">
                             <div class="flex-shrink-0 w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center text-blue-400">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold mb-2">Precision-Engineered Seals</h3>
-                                <p class="text-gray-400">Advanced sealing technology prevents water leaks and ensures long-lasting performance.</p>
+                                <h3 class="text-xl font-semibold mb-2">Custom Design Consultation</h3>
+                                <p class="text-gray-400">Personalized design process with 3D visualization to ensure your vision comes to life perfectly.</p>
                             </div>
                         </div>
+
+                        <div class="flex items-start gap-4 hover:transform hover:scale-105 transition-all duration-300">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center text-blue-400">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Quick Installation</h3>
+                                <p class="text-gray-400">Most installations completed within one day, minimizing disruption to your daily routine.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 hover:transform hover:scale-105 transition-all duration-300">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center text-blue-400">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Competitive Pricing</h3>
+                                <p class="text-gray-400">Transparent pricing with no hidden fees and flexible financing options available.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative rounded-2xl overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1584622781867-1c5e748fc19c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Luxury shower installation" class="w-full h-full object-cover rounded-2xl hover:transform hover:scale-105 transition-all duration-300">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">What Our Clients Say</h2>
+                    <p class="text-xl text-gray-400">Real feedback from satisfied customers throughout Gaithersburg.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-900 rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The installation team was incredibly professional. They completed our master bathroom shower in just one day, and the results are stunning. The glass quality is exceptional!"</p>
+                        <div class="mt-4">
+                            <p class="font-semibold">Sarah Johnson</p>
+                            <p class="text-sm text-gray-400">Homeowner in Crown Farm</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Best investment we've made in our home renovation. The frameless design makes our bathroom look twice as large. Their attention to detail is impressive."</p>
+                        <div class="mt-4">
+                            <p class="font-semibold">Michael Chen</p>
+                            <p class="text-sm text-gray-400">Interior Designer</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"From consultation to installation, the entire process was seamless. The team's expertise in custom measurements ensured a perfect fit for our unique space."</p>
+                        <div class="mt-4">
+                            <p class="font-semibold">Robert Williams</p>
+                            <p class="text-sm text-gray-400">Real Estate Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The quality of both the glass and hardware is exceptional. Two years later, it still looks brand new. Their lifetime warranty gives great peace of mind."</p>
+                        <div class="mt-4">
+                            <p class="font-semibold">Emily Rodriguez</p>
+                            <p class="text-sm text-gray-400">Custom Home Builder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gradient-to-b from-gray-900 to-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">About CustomEuroGlass</h2>
+                    <div class="space-y-6 text-gray-300">
+                        <p class="leading-relaxed">
+                            Founded in 2010, CustomEuroGlass began with a vision to bring European-inspired shower glass designs to Gaithersburg homes. Our founder's 20+ years of experience in custom glass installation and commitment to quality craftsmanship has established us as the region's premier shower glass specialist.
+                        </p>
+                        <p class="leading-relaxed">
+                            Our mission is to transform ordinary bathrooms into extraordinary spaces through innovative design, superior materials, and exceptional service. We believe in transparency, integrity, and delivering value that exceeds expectations. Every installation is backed by our lifetime warranty and commitment to customer satisfaction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Frequently Asked Questions</h2>
+                    <p class="text-xl text-gray-400">Everything you need to know about our shower glass installations.</p>
+                </div>
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">How long does installation typically take?</h3>
+                        <p class="text-gray-400">Most standard installations are completed within one day. Custom projects may require 1-2 days depending on complexity and additional features.</p>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What type of warranty do you offer?</h3>
+                        <p class="text-gray-400">We provide a comprehensive lifetime warranty on both materials and installation, covering any manufacturer defects or installation-related issues.</p>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What glass options are available?</h3>
+                        <p class="text-gray-400">We offer 3/8" and 1/2" tempered safety glass in clear, frosted, and patterned options. All glass meets or exceeds industry safety standards.</p>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Do you offer financing options?</h3>
+                        <p class="text-gray-400">Yes, we partner with several financing providers to offer flexible payment plans with competitive rates. Ask about our current promotions.</p>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What maintenance is required?</h3>
+                        <p class="text-gray-400">Our glass features a protective coating that minimizes water spots. Simple weekly cleaning with a squeegee and mild cleaner is all that's needed.</p>
                     </div>
                 </div>
             </div>
@@ -95,13 +300,13 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl mx-auto text-center">
                     <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Bathroom?</h2>
-                    <p class="text-xl text-gray-400 mb-8">Contact us today for a free consultation and quote.</p>
+                    <p class="text-xl text-gray-400 mb-8">Schedule your free consultation and get a custom quote today.</p>
                     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <a href="mailto:lt@customeuroglass.com" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
-                            Email Us
+                        <a href="mailto:lt@customeuroglass.com" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                            Email Us Now
                         </a>
-                        <a href="http://www.customeuroglass.com" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-blue-400 border-2 border-blue-400 rounded-full hover:bg-blue-400/10 transition-all duration-300">
-                            Visit Website
+                        <a href="http://www.customeuroglass.com" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-blue-400 border-2 border-blue-400 rounded-full hover:bg-blue-400/10 transition-all duration-300 hover:shadow-lg">
+                            Visit Our Showroom
                         </a>
                     </div>
                 </div>
@@ -111,10 +316,10 @@
 
     <footer class="bg-gray-900 border-t border-gray-800 py-12">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-xl font-bold mb-4">CustomEuroGlass</h3>
-                    <p class="text-gray-400">Professional shower glass installations in Gaithersburg.</p>
+                    <p class="text-gray-400">Transforming Gaithersburg bathrooms with premium shower glass solutions.</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
@@ -125,7 +330,18 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://mr222more.github.io/gaithersburg-2025-04-27-g5zwr/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://mr222more.github.io/gaithersburg-2025-04-27-g5zwr/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://mr222more.github.io/gaithersburg-2025-04-27-g5zwr/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -134,5 +350,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
